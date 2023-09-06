@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "fields": [
+    {
+      "field": "AUTH_TYPE",
+      "displayName": "Connector-Test-Samuel Auth Type",
+      "type": "String",
+      "minLength": 4,
+      "maxLength": 60,
+      "required": true,
+      "description": "Connector-Test-Samuel API Auth Type",
+      "default": "NONE",
+      "example": "NONE",
+      "helpSection": ""
+    },
+    {
+      "field": "SERVER_URL",
+      "displayName": "Connector-Test-Samuel Server Url",
+      "type": "String",
+      "minLength": 3,
+      "maxLength": 40,
+      "required": true,
+      "description": "Connector-Test-Samuel API Server Url",
+      "default": "",
+      "example": "http://",
+      "helpSection": "1. Navigate to the developer portal.\n2. Expand the Projects and Apps dropdown in the side navigation.\n3. Open the app that is associated with the API key and secret that you want to find or regenerate.\n4. Navigate to the Keys and tokens tab. From there, you will find all of the credentials associated with your app. "
+    }
+  ]
+}
